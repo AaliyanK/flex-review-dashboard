@@ -75,6 +75,10 @@ GOOGLE_PLACES_API_KEY=your_google_api_key
 
 ## 🧪 Testing the Application
 
+### Live Demo
+
+**Production URL**: [https://flex-review-dashboard.vercel.app/](https://flex-review-dashboard.vercel.app/)
+
 ### Demo Data Included
 
 The application includes comprehensive mock data:

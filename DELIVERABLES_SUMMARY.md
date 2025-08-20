@@ -153,6 +153,7 @@
 
 ### **2. Running Version** ✅ **COMPLETE**
 
+- **Live Demo**: [https://flex-review-dashboard.vercel.app/](https://flex-review-dashboard.vercel.app/)
 - **Local Development**: Fully functional with `npm run dev`
 - **Production Build**: Optimized build with `npm run build`
 - **Mock Data**: Comprehensive realistic data for immediate testing
@@ -206,7 +207,7 @@
 
 ## 🚀 Next Steps
 
-1. **Deploy to Production**: Use Vercel, Netlify, or similar platform
+1. **✅ Deploy to Production**: Successfully deployed to Vercel at [https://flex-review-dashboard.vercel.app/](https://flex-review-dashboard.vercel.app/)
 2. **Add Real API Keys**: Configure Hostaway and Google APIs when ready
 3. **Custom Domain**: Set up branded domain for client use
 4. **Monitoring**: Add analytics and error tracking

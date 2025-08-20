@@ -106,6 +106,8 @@ src/
 
 ## 🚀 Live Demo
 
+**Live Application**: [https://flex-review-dashboard.vercel.app/](https://flex-review-dashboard.vercel.app/)
+
 The application includes comprehensive mock data for immediate testing:
 
 - **12 realistic reviews** across 3 properties
