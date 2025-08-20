@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --color-flex-teal: #274E4C;
+  --color-flex-warm-white: #FFF9E9;
+  --color-flex-off-white: #FFFDF6;
+  --color-flex-text-dark: #333333;
+  --color-flex-text-medium: #666666;
+  --color-flex-text-light: #999999;
+  --color-flex-border: #E5E5E5;
+  
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --shadow-flex: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-flex-off-white);
+    color: var(--color-flex-text-dark);
+    font-family: var(--font-sans);
+  }
+}
+
+@layer components {
+  .flex-card {
+    @apply bg-white rounded-lg border border-gray-100;
+    box-shadow: var(--shadow-flex);
+  }
+  
+  .flex-button-primary {
+    @apply bg-flex-teal text-white px-4 py-2 rounded-lg font-medium transition-colors;
+    @apply hover:bg-[#1a3a38] focus:ring-2 focus:ring-flex-teal;
+  }
+  
+  .flex-button-secondary {
+    @apply bg-gray-100 text-gray-700 px-4 py-2 rounded-lg font-medium transition-colors;
+    @apply hover:bg-gray-200 focus:ring-2 focus:ring-gray-300;
+  }
+  
+  .flex-input {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg;
+    @apply focus:ring-2 focus:ring-flex-teal focus:border-flex-teal text-gray-900;
+  }
+  
+  .flex-heading {
+    @apply text-gray-900 font-semibold;
+  }
+  
+  .flex-text {
+    @apply text-gray-600;
+  }
+}
